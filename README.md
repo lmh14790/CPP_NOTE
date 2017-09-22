@@ -46,4 +46,9 @@ int a7 = {b};//编译会出现错误 存在截取
     for(string *b = arr;b! = end;b++){
     //遍历元素
     }
+     //尽管这样能计算尾指针但是容易出错 c++11推出更安全的用法
+     string *start = begin(arr);
+     string *edl   =  end(arr);
+   
+    }
 ```
