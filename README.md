@@ -10,4 +10,4 @@ std::sting getStr(){
 return "ccc";
 }
 dedlpty(getStr()) str = "C++11类型推断";
-```c++
+```
