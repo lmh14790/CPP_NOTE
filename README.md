@@ -35,3 +35,10 @@ int a5(b);
 int a6{b};//编译会出现错误 存在截取
 int a7 = {b};//编译会出现错误 存在截取
 ```
+### 指针和数组
+```c++
+    string arr[]{"aa","bb","cc","dd"};
+    string *p(arr);
+    auto p1(arr);//p1是一个指针 指向arr第一个元素
+    decltype(arr) arr1 = {"aa","bb","cc","dd"};//4个字符串的数组 因为根据右值判断
+```
